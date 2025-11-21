@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh """
                     export DOCKER_USERNAME=${barathh1357}
-                    export DOCKER_PASS=${4r4^?jK!jVC26x}
+                    export DOCKER_PASS="${4r4^?jK!jVC26x}"
                     ./build.sh
                 """
             }
