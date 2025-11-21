@@ -15,8 +15,8 @@ pipeline {
         stage('Executing Build Script') {
             steps {
                 sh """
-                    export DOCKER_USERNAME="${barathh1357}"
-                    export DOCKER_PASS="${4r4^?jK!jVC26x}"
+                    export DOCKER_USERNAME=${barathh1357}
+                    export DOCKER_PASS=${dckr_pat_sWb5ji1wtXsnaYvznBTDpR9vwcE}
                     ./build.sh
                 """
             }
